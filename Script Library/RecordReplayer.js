@@ -2,8 +2,8 @@
 
 Record Replayer
 
-We found that occasionally we need to reinsert a record fresh into a table in order to trigger workflows/transform maps/etc. 
-While some things like emails have a nice Reprocess button, other tables and especially custom tables aren't so easy.
+I have found that occasionally I need to reinsert a record fresh into a table in order to trigger workflows/transform maps/etc. 
+While some things like emails have a nice 'Reprocess' button, other tables and especially custom tables aren't so easy.
 This script will take a given record, copy all the fields that are not system (sys_) or in the blacklist and reinsert it fresh. The old record is not altered in any way.
 
 */
